@@ -1,6 +1,6 @@
 # ES6 Web Dev't with Webpack 4 and Babel 7 Beta
 
-Webpack is our automation build tool/bundler/task runner that incorporates babel to transpile or compile our es6 code to es5. With the help of .babelrc, it is well configured to handle react project as well to use its react presets in additon with "flow" that strips flow types and transform JSX into createElement calls.
+[Webpack](https://webpack.js.org/configuration/) is our automation build tool/bundler/task runner that incorporates [Babel](https://babeljs.io/docs/setup/) to transpile or compile our es6 code to es5. With the help of .babelrc, it is well configured to handle react project as well to use its react presets in additon with "flow" that strips flow types and transform JSX into createElement calls.
 
 Working with React projects you require the ff:
 a. @babel/preset-react
@@ -39,7 +39,7 @@ Install the above presets using npm: npm i -D @babel/preset-react babel-preset-f
 
 Download or clone this project:
 Clone as:
-> $ git clone https://github.com/opambour/Node-Starter-Kit-with-Typescript-Gulp.git projectName
+> $ git clone https://github.com/opambour/ES6-Web-Dev-t-with-Webpack-4-and-Babel-7-Beta.git projectName
 
 Install dependdencies as
 > $ npm install
