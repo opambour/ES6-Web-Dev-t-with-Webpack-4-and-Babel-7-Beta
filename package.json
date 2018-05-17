@@ -1,0 +1,36 @@
+{
+    "name": "webpack-with-es6",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "webpack:dev": "webpack --config webpack.config.js --mode=development",
+        "webpack:build": "webpack --config webpack.config.js --mode=production",
+        "webpack:dev:server": "webpack-dev-server --mode=development --open"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@babel/core": "^7.0.0-beta.47",
+        "webpack": "^4.8.3"
+    },
+    "devDependencies": {
+        "@babel/plugin-transform-runtime": "^7.0.0-beta.47",
+        "@babel/preset-env": "^7.0.0-beta.47",
+        "@babel/preset-flow": "^7.0.0-beta.47",
+        "@babel/preset-react": "^7.0.0-beta.47",
+        "babel-loader": "^8.0.0-beta.2",
+        "cache-loader": "^1.2.2",
+        "clean-webpack-plugin": "^0.1.19",
+        "eslint": "^4.19.1",
+        "eslint-loader": "^2.0.0",
+        "eslint-plugin-react": "^7.8.2",
+        "i": "^0.3.6",
+        "npm": "^6.0.1",
+        "react-hot-loader": "^4.2.0",
+        "webpack-cli": "^2.1.3",
+        "webpack-dev-server": "^3.1.4"
+    }
+}
