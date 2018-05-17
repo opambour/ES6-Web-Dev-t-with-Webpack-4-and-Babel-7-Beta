@@ -44,8 +44,11 @@ Clone as:
 Install dependdencies as
 > $ npm install
 
-Run Gulp to generate dist files
-> $ npx gulp or npm run gulp
+Run webpack in development to generate dist files
+> $ npm run build:dev
+
+Run webpack in production to generate dist files
+> $ npm run build:prod
 
 The above code will automate all task including **nodemon** and **browser-sync**. After running gulp, it will compile all typescript src files and folders to dist folder.
 
