@@ -50,8 +50,6 @@ Run webpack in development to generate dist files
 Run webpack in production to generate dist files
 > $ npm run build:prod
 
-The above code will automate all task including **nodemon** and **browser-sync**. After running gulp, it will compile all typescript src files and folders to dist folder.
-
 ## React Project
 
 To use this work flow in react project, clone this repo and install react and it's required libraries as:
@@ -60,3 +58,4 @@ To use this work flow in react project, clone this repo and install react and it
 That's it...enjoy!
 
 **Version #:** 1.0.0
+
