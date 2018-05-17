@@ -34,3 +34,19 @@ Install the above presets using npm: npm i -D @babel/preset-react babel-preset-f
 * babel-preset-env: Determines which transformations/plugins to use and polyfills (provide modern functionality on   older browsers that do not natively support it) based on the browser matrix you want to support
 
 * babel-preset-react: Babel preset for all React plugins, for example turning JSX into functions
+
+## Usage
+
+Download or clone this project:
+Clone as:
+> $ git clone https://github.com/opambour/Node-Starter-Kit-with-Typescript-Gulp.git projectName
+
+Install dependdencies as
+> $ npm install
+
+Run Gulp to generate dist files
+> $ npx gulp or npm run gulp
+
+The above code will automate all task including **nodemon** and **browser-sync**. After running gulp, it will compile all typescript src files and folders to dist folder.
+
+**Version #:** 1.0.0
