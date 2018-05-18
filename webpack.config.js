@@ -1,4 +1,4 @@
-// const webpack = require('webpack');
+const webpack = require('webpack');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
 const path = require('path');
 
@@ -100,6 +100,9 @@ const clientSideseConfig = {
             verbose: true,
             dry: false
         }),
+        new webpack.DefinePlugin({
+            'process.env.NODE_ENV': JSON.stringify('production')
+        })
         // /**  HMR allows all kinds of modules to be updated at runtime without the need for a full refresh.
         //  * HMR is not intended for use in production.
         //  */
